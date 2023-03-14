@@ -1,5 +1,15 @@
 // https://leetcode.com/problems/sum-root-to-leaf-numbers/
 
+using namespace std;
+#define NULL 0
+
+class TreeNode {
+public:
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+};
+
 class Solution {
 public:
     int traverse(TreeNode* root, int sum) {
